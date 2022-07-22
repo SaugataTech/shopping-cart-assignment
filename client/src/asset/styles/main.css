@@ -1,0 +1,242 @@
+* {
+  font-family: 'Dosis', sans-serif;
+}
+
+.page-header {
+  border-bottom: 1px solid lightgray;
+}
+
+.page-header .img-fluid {
+  min-width: 200px;
+}
+
+.toggle-app-logo-small {
+  display: none;
+}
+
+.cart-icon-container {
+  background-color: #f1f1f1;
+  padding-top: 21px;
+  padding-left: 25px;
+}
+
+.cart-icon {
+  float: left;
+}
+
+.cart-count {
+  float: left;
+  margin-left: 14px;
+  margin-top: 4px;
+}
+
+.page-footer {
+  background-color: #f1f1f1;
+  height: 50px;
+  padding-top: 12px;
+}
+
+.modal-no-cart-header, .no-cart-close {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.modal-cart-header, .cart-close {
+  border: none;
+  background-color: white;
+}
+
+.modal-title-count {
+  font-size: 14px;
+}
+
+.modal-footer-container {
+  width: 100%;
+  background-color: rgb(213, 19, 97);
+  border-radius: 4px;
+  padding: 14px;
+  color: white;
+}
+
+.modal-footer-container .proceed-text {
+  float: left;
+}
+
+.modal-footer-container .subtotal {
+  float: right;
+}
+
+.start-shop {
+  text-align: center;
+}
+
+.category-container {
+  margin-bottom: 40px;
+}
+
+.category-details-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.category-details-container h3 {
+  font-weight: 900;
+}
+
+.sidebar {
+  padding: 0;
+  background-color: #f1f1f1;
+  min-height: 500px;
+  overflow: auto;
+}
+
+.sidebar li {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar li.active {
+  background-color: rgb(213, 19, 97);
+  color: white;
+}
+
+.sidebar li:hover:not(.active) {
+  background-color: darkturquoise;
+  color: white;
+}
+
+.prod-card-container {
+  height: 40rem;
+  width: 18rem;
+  float: left;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.prod-card-title {
+  height: 70px;
+}
+
+.prod-card-img {
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+.prod-card-img img {
+  height: 100%;
+}
+
+.prod-price {
+  float: left;
+  padding-top: 8px;
+}
+
+.btn-container {
+  float: left;
+}
+
+.btn-container button {
+  background-color: rgb(213, 19, 97);
+  width: 120px;
+  border: none;
+}
+
+.card-desc {
+  background-color: rgb(241, 241, 241);
+  height: 200px;
+  padding: 5px;
+}
+
+.modal-body {
+  background-color: #f1f1f1;
+}
+
+.modal-body .row {
+  background-color: white;
+  margin-bottom: 8px;
+  padding: 5px;
+}
+
+.cart-img {
+  max-width: 100%;
+}
+
+.cart-btn {
+  width: 40px;
+  background-color: rgb(213, 19, 97);
+  border: none;
+  color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.cart-mul {
+  margin-right: 10px;
+}
+
+.item-price {
+  padding-top: 35px;
+  font-size: 18px;
+  text-align: right;
+}
+
+.form-field-grp {
+  margin-bottom: 10px;
+}
+
+.form-field {
+  width: 100%;
+  margin: 4px;
+  border: none;
+  border-bottom: 1px solid gray;
+  line-height: 2;
+}
+
+label {
+  width: 100%;
+}
+
+.form-btn {
+  width: 100%;
+  background-color: rgb(213, 19, 97);
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .navigation-link {
+    margin-top: 0;
+    margin-left: auto;
+  }
+  .toggle-app-logo {
+    display: none;
+  }
+  .toggle-app-logo-small {
+    display: block;
+  }
+  .modal-dialog {
+    min-width: 600px !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .navigation-link {
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+
+  .modal-dialog {
+    min-width: 800px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-dialog {
+    min-width: 400px !important;
+  }
+}
